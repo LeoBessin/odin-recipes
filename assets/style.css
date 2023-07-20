@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: black;
+    height: 100vh;
+    background-color: #FDF4F3;
+}
+
+#navBar {
+    display: flex;
+    align-items: inherit;
+    justify-content: left;
+    flex-direction: row;
+    padding-top: 10px;
+    width: 90%;
+    font-size: 25px;
+    color: #884579;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logoText{
+    margin-top: 25px;
+}
+
+#logoText h1{
+    margin: -15px;
+}
+
+#firstLogoText{
+    letter-spacing: 20px;
+}
+
+#secondLogoText{
+    font-weight: lighter;
+}
+
+#header{
+    font-size: 35px;
+    color: #D9614E;
+    margin: 15px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer a{
+    font-size: 20px;
+}
+
+#recipePresentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 25px;
+}
+
+#recipeSteps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+    width: 40vw;
+}
