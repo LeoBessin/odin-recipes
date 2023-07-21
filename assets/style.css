@@ -50,7 +50,7 @@ a:hover {
 }
 
 #header{
-    font-size: 35px;
+    font-size: 3vw;
     color: #D9614E;
     margin: 15px;
 }
@@ -83,6 +83,15 @@ footer a{
     justify-content: space-between;
     gap: 100px;
     margin: 25px;
+}
+
+#recipePresentation > *{
+    flex: 1;
+}
+
+#recipePresentation > img{
+    max-width: 26vw;
+    flex: 1;
 }
 
 #recipeSteps{
